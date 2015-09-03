@@ -8,3 +8,11 @@ OBJ = main.o libs/program.o libs/utilities.o libs/crypt.o
 
 main: $(OBJ)
 	$(CC) -o main $(OBJ) $(CFLAGS)
+
+.PHONY: clean start
+
+start:
+	make clean && ./main
+
+clean:
+	rm -f main.o libs/*.o
