@@ -25,8 +25,9 @@ int main(int argc, char** argv)
             break;
         }
 
-        printf("Ingrese cadena a encriptar (max: %d): ", MAX_MESSAGE_INPUT - 1);
-        scanf("%s", temp);
+        printf("Ingrese cadena a encriptar (max:  %d): ", MAX_MESSAGE_INPUT - 1);
+        clearStdIn();
+        fgets(temp, sizeof(temp), stdin);
 
         switch (inputOption) {
             case OPTION_CENIT_POLAR:
