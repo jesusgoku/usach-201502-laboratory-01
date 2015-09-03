@@ -7,10 +7,10 @@
 void printMenu()
 {
         printf("Opciones:\n");
-        printf("1.- CENIT => POLAR\n");
-        printf("2.- MUERCIELAGO => 0123456789\n");
-        printf("3.- OISEASGLBq => 0123456789\n");
-        printf("4.- GERIGONZA\n");
+        printf("%d.- CENIT => POLAR\n", OPTION_CENIT_POLAR);
+        printf("%d.- MUERCIELAGO => 0123456789\n", OPTION_MURCIELAGO);
+        printf("%d.- OISEASGLBq => 0123456789\n", OPTION_NUMERIC);
+        printf("%d.- GERIGONZA\n", OPTION_GERIGONCIO);
         printf("%d.- SALIR\n", EXIT_CODE);
 }
 
