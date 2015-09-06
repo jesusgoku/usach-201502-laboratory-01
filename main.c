@@ -8,13 +8,18 @@
 #include "libs/program.h"
 #include "libs/crypt.h"
 
-int main(int argc, char** argv)
+/**
+ * Encrypt program
+ * @param  argc Number of arguments
+ * @param  argv Array of arguments
+ * @return      state of program
+ */
+int main(int argc, char *argv[])
 {
     int inputOption = EXIT_CODE;
     char temp[MAX_MESSAGE_INPUT];
 
     do {
-        // clearScreen();
         printf("Encriptador\n");
         printf("===========\n\n");
 
