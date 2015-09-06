@@ -34,8 +34,8 @@ void murcielagoCrypt(char *str)
 
 void numericCrypt(char *str)
 {
-    char *from = "OIZEASGTBQoizeasgtbq";
-    char *to = "01234567890123456789";
+    char *from = "OIZEASGTBq";
+    char *to = "01234567890";
 
     for (int strIndex = 0; CHAR_NULL != str[strIndex]; ++strIndex) {
         for (int letterIndex = 0; CHAR_NULL != from[letterIndex]; ++letterIndex) {
