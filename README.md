@@ -1,5 +1,5 @@
 Laboratory 01
-=========
+=============
 
 [![Build Status](https://travis-ci.org/jesusgoku/usach-201502-laboratory-01.svg?branch=master)](https://travis-ci.org/jesusgoku/usach-201502-laboratory-01)
 
@@ -19,4 +19,9 @@ Compile
 Run
 ----
 
-    ./main
+    make start
+
+Disclaimer
+----------
+
+Testing only on OSX platform.
