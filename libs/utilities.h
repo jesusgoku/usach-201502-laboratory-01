@@ -11,4 +11,9 @@ void clearStdIn();
  */
 void clearScreen();
 
+/**
+ * Wait for user press Enter key
+ */
+void pause();
+
 #endif // __UTILITIES_H__
