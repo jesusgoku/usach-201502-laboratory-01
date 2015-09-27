@@ -50,6 +50,7 @@ int main(int argc, char *argv[])
         }
 
         printf("\n\nMensaje encriptado: %s\n\n", temp);
+        pause();
 
     } while (EXIT_CODE != inputOption);
 
