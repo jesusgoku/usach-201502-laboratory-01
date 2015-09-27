@@ -12,7 +12,7 @@ main: $(OBJ)
 .PHONY: clean start
 
 start:
-	make clean && ./main
+	./main
 
 clean:
-	rm -f main.o libs/*.o
+	rm -f main.o libs/*.o main
